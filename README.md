@@ -10,3 +10,10 @@ This Coda 2 syntax mode includes all __WordPress 3.6__ functions and is based on
 * Open a PHP file and select `PHP-HTML-WP` under `Text -> Syntax Mode` in the toolbar.
 
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Modes`.
+
+## Changelog
+
+### 1.1 (2013-10-10)
+
+  - Added 28 WordPress functions
+  - Updated autocomplete parameters of several WP functions.
