@@ -4679,6 +4679,7 @@
 					<regex>(\b@??list_meta) *\(</regex>
 					<regex>(\b@??list_plugin_updates) *\(</regex>
 					<regex>(\b@??list_theme_updates) *\(</regex>
+					<regex>(\b@??list_translation_updates) *\(</regex>
 					<regex>(\b@??load_child_theme_textdomain) *\(</regex>
 					<regex>(\b@??load_default_textdomain) *\(</regex>
 					<regex>(\b@??load_image_to_edit) *\(</regex>
@@ -5195,6 +5196,7 @@
 					<regex>(\b@??upgrade_330) *\(</regex>
 					<regex>(\b@??upgrade_340) *\(</regex>
 					<regex>(\b@??upgrade_350) *\(</regex>
+					<regex>(\b@??upgrade_370) *\(</regex>
 					<regex>(\b@??upgrade_all) *\(</regex>
 					<regex>(\b@??upgrade_network) *\(</regex>
 					<regex>(\b@??upgrade_old_slugs) *\(</regex>
@@ -5346,7 +5348,6 @@
 					<regex>(\b@??wp_authenticate_cookie) *\(</regex>
 					<regex>(\b@??wp_authenticate_spam_check) *\(</regex>
 					<regex>(\b@??wp_authenticate_username_password) *\(</regex>
-					<regex>(\b@??wp_auto_updates_maybe_update) *\(</regex>
 					<regex>(\b@??wp_basename) *\(</regex>
 					<regex>(\b@??wp_blacklist_check) *\(</regex>
 					<regex>(\b@??wp_cache_add) *\(</regex>
@@ -5655,6 +5656,7 @@
 					<regex>(\b@??wp_make_link_relative) *\(</regex>
 					<regex>(\b@??wp_match_mime_types) *\(</regex>
 					<regex>(\b@??wp_max_upload_size) *\(</regex>
+					<regex>(\b@??wp_maybe_auto_update) *\(</regex>
 					<regex>(\b@??wp_maybe_load_embeds) *\(</regex>
 					<regex>(\b@??wp_maybe_load_widgets) *\(</regex>
 					<regex>(\b@??wp_maybe_update_network_site_counts) *\(</regex>

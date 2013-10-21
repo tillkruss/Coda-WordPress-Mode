@@ -41627,6 +41627,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>list_translation_updates</string>
+			<key>String</key>
+			<string>list_translation_updates</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>load_child_theme_textdomain</string>
 			<key>String</key>
 			<string>load_child_theme_textdomain</string>
@@ -48451,6 +48461,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>upgrade_370</string>
+			<key>String</key>
+			<string>upgrade_370</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>upgrade_all</string>
 			<key>String</key>
 			<string>upgrade_all</string>
@@ -50224,16 +50244,6 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{34, 0}</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>wp_auto_updates_maybe_update</string>
-			<key>String</key>
-			<string>wp_auto_updates_maybe_update</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{29, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -54392,6 +54402,16 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{19, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_maybe_auto_update</string>
+			<key>String</key>
+			<string>wp_maybe_auto_update</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
