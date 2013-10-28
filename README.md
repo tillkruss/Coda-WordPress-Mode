@@ -13,6 +13,13 @@ This will automatically install the syntax mode to `~/Library/Application Suppor
 
 ## Changelog
 
+### 1.1.1 (2013-10-28)
+
+* Added `upgrade_370()`
+* Added `wp_maybe_auto_update()`
+* Added `list_translation_updates()`
+* Removed `wp_auto_updates_maybe_update()`
+
 ### 1.1 (2013-10-10)
 
   - Added 28 WordPress functions
