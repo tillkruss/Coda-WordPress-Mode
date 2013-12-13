@@ -38840,6 +38840,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>get_theme_update_available</string>
+			<key>String</key>
+			<string>get_theme_update_available</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>$theme</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>get_theme_updates</string>
 			<key>String</key>
 			<string>get_theme_updates</string>
@@ -42824,16 +42838,6 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{22, 0}</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>no_update_actions</string>
-			<key>String</key>
-			<string>no_update_actions</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{18, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -48471,6 +48475,26 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>upgrade_372</string>
+			<key>String</key>
+			<string>upgrade_372</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>upgrade_380</string>
+			<key>String</key>
+			<string>upgrade_380</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>upgrade_all</string>
 			<key>String</key>
 			<string>upgrade_all</string>
@@ -49416,6 +49440,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_admin_bar_sidebar_toggle</string>
+			<key>String</key>
+			<string>wp_admin_bar_sidebar_toggle</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{28, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>$wp_admin_bar</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_admin_bar_site_menu</string>
 			<key>String</key>
 			<string>wp_admin_bar_site_menu</string>
@@ -49961,6 +49999,16 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{30, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_ajax_save_user_color_scheme</string>
+			<key>String</key>
+			<string>wp_ajax_save_user_color_scheme</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{31, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -50756,6 +50804,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_color_scheme_settings</string>
+			<key>String</key>
+			<string>wp_color_scheme_settings</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_comment_form_unfiltered_html_nonce</string>
 			<key>String</key>
 			<string>wp_comment_form_unfiltered_html_nonce</string>
@@ -51225,6 +51283,21 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_dashboard_primary_output</string>
+			<key>String</key>
+			<string>wp_dashboard_primary_output</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{28, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $widget_id</string>
+				<string>array $feeds</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_dashboard_quick_press</string>
 			<key>String</key>
 			<string>wp_dashboard_quick_press</string>
@@ -51282,6 +51355,20 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{27, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_dashboard_recent_posts</string>
+			<key>String</key>
+			<string>wp_dashboard_recent_posts</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{26, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $args</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -51361,6 +51448,16 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{19, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_dashboard_site_activity</string>
+			<key>String</key>
+			<string>wp_dashboard_site_activity</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -53174,6 +53271,20 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_heartbeat_set_suspension</string>
+			<key>String</key>
+			<string>wp_heartbeat_set_suspension</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{28, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $settings</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -55188,6 +55299,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_prepare_themes_for_js</string>
+			<key>String</key>
+			<string>wp_prepare_themes_for_js</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $themes</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_print_editor_js</string>
 			<key>String</key>
 			<string>wp_print_editor_js</string>
@@ -56586,6 +56711,20 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{17, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_star_rating</string>
+			<key>String</key>
+			<string>wp_star_rating</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $args</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>

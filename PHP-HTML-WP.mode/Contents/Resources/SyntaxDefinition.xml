@@ -4461,6 +4461,7 @@
 					<regex>(\b@??get_theme_root_uri) *\(</regex>
 					<regex>(\b@??get_theme_roots) *\(</regex>
 					<regex>(\b@??get_theme_support) *\(</regex>
+					<regex>(\b@??get_theme_update_available) *\(</regex>
 					<regex>(\b@??get_theme_updates) *\(</regex>
 					<regex>(\b@??get_themes) *\(</regex>
 					<regex>(\b@??get_to_ping) *\(</regex>
@@ -4772,7 +4773,6 @@
 					<regex>(\b@??next_posts) *\(</regex>
 					<regex>(\b@??next_posts_link) *\(</regex>
 					<regex>(\b@??next_widget_id_number) *\(</regex>
-					<regex>(\b@??no_update_actions) *\(</regex>
 					<regex>(\b@??nocache_headers) *\(</regex>
 					<regex>(\b@??noindex) *\(</regex>
 					<regex>(\b@??normalize_whitespace) *\(</regex>
@@ -5197,6 +5197,8 @@
 					<regex>(\b@??upgrade_340) *\(</regex>
 					<regex>(\b@??upgrade_350) *\(</regex>
 					<regex>(\b@??upgrade_370) *\(</regex>
+					<regex>(\b@??upgrade_372) *\(</regex>
+					<regex>(\b@??upgrade_380) *\(</regex>
 					<regex>(\b@??upgrade_all) *\(</regex>
 					<regex>(\b@??upgrade_network) *\(</regex>
 					<regex>(\b@??upgrade_old_slugs) *\(</regex>
@@ -5270,6 +5272,7 @@
 					<regex>(\b@??wp_admin_bar_render) *\(</regex>
 					<regex>(\b@??wp_admin_bar_search_menu) *\(</regex>
 					<regex>(\b@??wp_admin_bar_shortlink_menu) *\(</regex>
+					<regex>(\b@??wp_admin_bar_sidebar_toggle) *\(</regex>
 					<regex>(\b@??wp_admin_bar_site_menu) *\(</regex>
 					<regex>(\b@??wp_admin_bar_updates_menu) *\(</regex>
 					<regex>(\b@??wp_admin_bar_wp_menu) *\(</regex>
@@ -5322,6 +5325,7 @@
 					<regex>(\b@??wp_ajax_save_attachment) *\(</regex>
 					<regex>(\b@??wp_ajax_save_attachment_compat) *\(</regex>
 					<regex>(\b@??wp_ajax_save_attachment_order) *\(</regex>
+					<regex>(\b@??wp_ajax_save_user_color_scheme) *\(</regex>
 					<regex>(\b@??wp_ajax_save_widget) *\(</regex>
 					<regex>(\b@??wp_ajax_send_attachment_to_editor) *\(</regex>
 					<regex>(\b@??wp_ajax_send_link_to_editor) *\(</regex>
@@ -5385,6 +5389,7 @@
 					<regex>(\b@??wp_clear_scheduled_hook) *\(</regex>
 					<regex>(\b@??wp_clearcookie) *\(</regex>
 					<regex>(\b@??wp_clone) *\(</regex>
+					<regex>(\b@??wp_color_scheme_settings) *\(</regex>
 					<regex>(\b@??wp_comment_form_unfiltered_html_nonce) *\(</regex>
 					<regex>(\b@??wp_comment_reply) *\(</regex>
 					<regex>(\b@??wp_comment_trashnotice) *\(</regex>
@@ -5422,12 +5427,14 @@
 					<regex>(\b@??wp_dashboard_plugins_output) *\(</regex>
 					<regex>(\b@??wp_dashboard_primary) *\(</regex>
 					<regex>(\b@??wp_dashboard_primary_control) *\(</regex>
+					<regex>(\b@??wp_dashboard_primary_output) *\(</regex>
 					<regex>(\b@??wp_dashboard_quick_press) *\(</regex>
 					<regex>(\b@??wp_dashboard_quick_press_output) *\(</regex>
 					<regex>(\b@??wp_dashboard_quota) *\(</regex>
 					<regex>(\b@??wp_dashboard_recent_comments) *\(</regex>
 					<regex>(\b@??wp_dashboard_recent_comments_control) *\(</regex>
 					<regex>(\b@??wp_dashboard_recent_drafts) *\(</regex>
+					<regex>(\b@??wp_dashboard_recent_posts) *\(</regex>
 					<regex>(\b@??wp_dashboard_right_now) *\(</regex>
 					<regex>(\b@??wp_dashboard_rss_control) *\(</regex>
 					<regex>(\b@??wp_dashboard_rss_output) *\(</regex>
@@ -5435,6 +5442,7 @@
 					<regex>(\b@??wp_dashboard_secondary_control) *\(</regex>
 					<regex>(\b@??wp_dashboard_secondary_output) *\(</regex>
 					<regex>(\b@??wp_dashboard_setup) *\(</regex>
+					<regex>(\b@??wp_dashboard_site_activity) *\(</regex>
 					<regex>(\b@??wp_dashboard_trigger_widget_control) *\(</regex>
 					<regex>(\b@??wp_debug_backtrace_summary) *\(</regex>
 					<regex>(\b@??wp_debug_mode) *\(</regex>
@@ -5567,6 +5575,7 @@
 					<regex>(\b@??wp_hash) *\(</regex>
 					<regex>(\b@??wp_hash_password) *\(</regex>
 					<regex>(\b@??wp_head) *\(</regex>
+					<regex>(\b@??wp_heartbeat_set_suspension) *\(</regex>
 					<regex>(\b@??wp_heartbeat_settings) *\(</regex>
 					<regex>(\b@??wp_html_excerpt) *\(</regex>
 					<regex>(\b@??wp_htmledit_pre) *\(</regex>
@@ -5717,6 +5726,7 @@
 					<regex>(\b@??wp_preload_dialogs) *\(</regex>
 					<regex>(\b@??wp_prepare_attachment_for_js) *\(</regex>
 					<regex>(\b@??wp_prepare_revisions_for_js) *\(</regex>
+					<regex>(\b@??wp_prepare_themes_for_js) *\(</regex>
 					<regex>(\b@??wp_print_editor_js) *\(</regex>
 					<regex>(\b@??wp_print_footer_scripts) *\(</regex>
 					<regex>(\b@??wp_print_head_scripts) *\(</regex>
@@ -5819,6 +5829,7 @@
 					<regex>(\b@??wp_sprintf) *\(</regex>
 					<regex>(\b@??wp_sprintf_l) *\(</regex>
 					<regex>(\b@??wp_ssl_constants) *\(</regex>
+					<regex>(\b@??wp_star_rating) *\(</regex>
 					<regex>(\b@??wp_start_object_cache) *\(</regex>
 					<regex>(\b@??wp_stream_image) *\(</regex>
 					<regex>(\b@??wp_strip_all_tags) *\(</regex>
