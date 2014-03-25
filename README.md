@@ -1,6 +1,6 @@
 # WordPress syntax mode for Coda.
 
-This Coda 2 syntax mode includes all __WordPress 3.8__ functions and is based on the latest PHP syntax mode that comes bundled with Coda 2.
+This Coda 2 syntax mode includes all __WordPress 3.9__ functions and is based on the latest PHP syntax mode that comes bundled with Coda 2.
 
 ## Installation
 
@@ -12,6 +12,11 @@ This Coda 2 syntax mode includes all __WordPress 3.8__ functions and is based on
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Modes`.
 
 ## Changelog
+
+### 1.3 (2014-03-25)
+
+  - Added 27 functions
+  - Removed `_edit_attachments_query_helper()` and `wp_ajax_autosave()`
 
 ### 1.2 (2013-12-13)
 
