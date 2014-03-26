@@ -2,7 +2,7 @@
 
 This Coda 2 syntax mode includes all __WordPress 3.9__ functions and is based on Coda's latest PHP-HTML syntax mode.
 
-**Coda 2.5 beta users:** [Use this `.codacompletion` mode instead.](https://github.com/tillkruess/Coda-WordPress-Mode/tree/codacompletion)
+**Coda 2.5 beta user?** [Use this.](https://github.com/tillkruess/Coda-WordPress-Mode/tree/codacompletion)
 
 ## Installation
 
