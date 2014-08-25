@@ -1,6 +1,6 @@
 # WordPress auto-complete for Coda 2.5
 
-This auto-complete mode Coda 2.5 includes all __WordPress 4.0__ functions.
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.0__ functions.
 
 ## Installation
 
