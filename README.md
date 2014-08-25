@@ -1,6 +1,6 @@
 # WordPress auto-complete for Coda 2.
 
-This Coda 2 syntax mode includes all __WordPress 3.9__ functions and is based on Coda's latest PHP-HTML syntax mode.
+This Coda 2 syntax mode includes all __WordPress 4.0__ functions and is based on Coda's latest PHP-HTML syntax mode.
 
 **Coda 2.5 beta user?** [Use this.](https://github.com/tillkruess/Coda-WordPress-Mode/tree/codacompletion)
 
@@ -15,6 +15,10 @@ This will automatically install the syntax mode to `~/Library/Application Suppor
 
 ## Changelog
 
+### 1.4 (2014-08-25)
+
+  - Added 30 and removed 8 functions
+  
 ### 1.3 (2014-03-25)
 
   - Added 27 functions
