@@ -15,10 +15,14 @@ This will automatically install the syntax mode to `~/Library/Application Suppor
 
 ## Changelog
 
+### 1.4.1 (2014-09-04)
+
+  - Added 7 and removed 4 functions
+
 ### 1.4 (2014-08-25)
 
   - Added 30 and removed 8 functions
-  
+
 ### 1.3 (2014-03-25)
 
   - Added 27 functions

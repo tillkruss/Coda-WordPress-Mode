@@ -28528,20 +28528,6 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>_wp_refresh_blog_details_on_updated_option</string>
-			<key>String</key>
-			<string>_wp_refresh_blog_details_on_updated_option</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{43, 0}</string>
-			<key>Parameters</key>
-			<array>
-				<string>string $option_name</string>
-			</array>
-		</dict>
-		<dict>
-			<key>ID</key>
 			<string>_wp_relative_upload_path</string>
 			<key>String</key>
 			<string>_wp_relative_upload_path</string>
@@ -31972,6 +31958,22 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $tag</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>disabled</string>
+			<key>String</key>
+			<string>disabled</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $disabled</string>
+				<string>mixed $current</string>
+				<string>bool $echo</string>
 			</array>
 		</dict>
 		<dict>
@@ -47784,6 +47786,21 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>translations_api</string>
+			<key>String</key>
+			<string>translations_api</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $type</string>
+				<string>mixed $args</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>type_url_form_audio</string>
 			<key>String</key>
 			<string>type_url_form_audio</string>
@@ -48761,6 +48778,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>upgrade_400</string>
+			<key>String</key>
+			<string>upgrade_400</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>upgrade_all</string>
 			<key>String</key>
 			<string>upgrade_all</string>
@@ -49448,6 +49475,20 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{17, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp</string>
+			<key>String</key>
+			<string>wp</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $query_vars</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -50832,6 +50873,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_can_install_language_pack</string>
+			<key>String</key>
+			<string>wp_can_install_language_pack</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{29, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_caption_input_textarea</string>
 			<key>String</key>
 			<string>wp_caption_input_textarea</string>
@@ -52142,6 +52193,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_download_language_pack</string>
+			<key>String</key>
+			<string>wp_download_language_pack</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{26, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $download</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_dropdown_categories</string>
 			<key>String</key>
 			<string>wp_dropdown_categories</string>
@@ -52943,13 +53008,13 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>wp_get_available_translations_from_api</string>
+			<string>wp_get_available_translations</string>
 			<key>String</key>
-			<string>wp_get_available_translations_from_api</string>
+			<string>wp_get_available_translations</string>
 			<key>PostString</key>
 			<string>()</string>
 			<key>SelectionRange</key>
-			<string>{39, 0}</string>
+			<string>{30, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -54032,20 +54097,6 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>wp_install_download_language_pack</string>
-			<key>String</key>
-			<string>wp_install_download_language_pack</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{34, 0}</string>
-			<key>Parameters</key>
-			<array>
-				<string>string $download</string>
-			</array>
-		</dict>
-		<dict>
-			<key>ID</key>
 			<string>wp_install_language_form</string>
 			<key>String</key>
 			<string>wp_install_language_form</string>
@@ -54056,20 +54107,6 @@
 			<key>Parameters</key>
 			<array>
 				<string>array $languages</string>
-			</array>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>wp_install_load_language</string>
-			<key>String</key>
-			<string>wp_install_load_language</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{25, 0}</string>
-			<key>Parameters</key>
-			<array>
-				<string>string $translation</string>
 			</array>
 		</dict>
 		<dict>
