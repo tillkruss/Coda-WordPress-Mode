@@ -9,7 +9,7 @@
 	<key>CodaIconMaskTintString</key>
 	<string>#06759b</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.panic.coda.completions.wordpress-additions</string>
+	<string>com.hive12.coda.completions.wordpress-additions</string>
 	<key>CFBundleName</key>
 	<string>WordPress Additions</string>
 	<key>NSHumanReadableCopyright</key>
