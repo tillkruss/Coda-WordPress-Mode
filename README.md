@@ -1,46 +1,29 @@
-# WordPress auto-complete for Coda 2.
+# WordPress auto-complete for Coda 2.5
 
-This Coda 2 syntax mode includes all __WordPress 4.0__ functions and is based on Coda's latest PHP-HTML syntax mode.
-
-**Coda 2.5 beta user?** [Use this.](https://github.com/tillkruess/Coda-WordPress-Mode/tree/codacompletion)
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.0__ functions.
 
 ## Installation
 
-* [Download the latest WordPress syntax mode.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/master.zip)
+* [Download the latest WordPress auto-complete mode.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/codacompletion.zip)
 * Unpack the downloaded Zip file.
-* Open `PHP-HTML-WP.mode` and click "Install".
-* Open a PHP file and select `PHP-HTML-WP` under `Text -> Syntax Mode` in the toolbar.
+* Open `WordPress Additions.codacompletion`.
 
-This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Modes`.
+This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Completions`.
 
 ## Changelog
 
-### 1.4.1 (2014-09-04)
+### 1.1.1 (2014-09-04)
 
-  - Added 7 and removed 4 functions
+  - Added 7 functions: `disabled`, `translations_api`, `upgrade_400`, `wp`, `wp_can_install_language_pack`, `wp_download_language_pack`, `wp_get_available_translations`
+  - Removed 4 functions: `_wp_refresh_blog_details_on_updated_option`, `wp_get_available_translations_from_api`, `wp_install_download_language_pack`, `wp_install_load_language`
 
-### 1.4 (2014-08-25)
+### 1.1 (2014-08-25)
 
-  - Added 30 and removed 8 functions
+  - Added 29 functions: `_update_posts_count_on_delete`, `_update_posts_count_on_transition_post_status`, `_wp_handle_upload`, `_wp_refresh_blog_details_on_updated_option`, `attachment_id3_data_meta_box`, `attachment_url_to_postid`, `get_comments_number_text`, `get_editor_stylesheets`, `is_customize_preview`, `post_form_autocomplete_off`, `wp_ajax_parse_embed`, `wp_ajax_parse_media_shortcode`, `wp_ajax_query_themes`, `wp_ajax_set_attachment_thumbnail`, `wp_destroy_all_sessions`, `wp_destroy_current_session`, `wp_destroy_other_sessions`, `wp_dropdown_languages`, `wp_embed_handler_youtube`, `wp_get_all_sessions`, `wp_get_attachment_id3_keys`, `wp_get_available_translations_from_api`, `wp_get_session_token`, `wp_install_download_language_pack`, `wp_install_language_form`, `wp_install_load_language`, `wp_spaces_regexp`, `wp_validate_boolean`, `wpview_media_sandbox_styles`
+  - Added 1 WordPress "compat function": `hash_equals`
+  - Removed 7 functions: `disabled`, `init`, `post_supports_thumbnails`, `theme_supports_thumbnails`, `wp`, `wp_get_playlist`, `wp_video_playlist_shortcode`
+  - Removed 5 WordPress "compat functions": `hash_hmac`, `json_decode`, `json_encode`, `mb_substr`, `stripos`
 
-### 1.3 (2014-03-25)
+### 1.0 (2014-03-25)
 
-  - Added 27 functions
-  - Removed `_edit_attachments_query_helper()` and `wp_ajax_autosave()`
-
-### 1.2 (2013-12-13)
-
-  - Added 12 functions
-  - Removed `no_update_actions()`
-
-### 1.1.1 (2013-10-28)
-
-  - Added `upgrade_370()`
-  - Added `wp_maybe_auto_update()`
-  - Added `list_translation_updates()`
-  - Removed `wp_auto_updates_maybe_update()`
-
-### 1.1 (2013-10-10)
-
-  - Added 28 WordPress functions
-  - Updated autocomplete parameters of several WP functions.
+  - Initial release
