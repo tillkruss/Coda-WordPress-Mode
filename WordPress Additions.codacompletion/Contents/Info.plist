@@ -7,11 +7,15 @@
 	<key>CodaDescriptionString</key>
 	<string>Auto-completion for WordPress 4.0 functions.</string>
 	<key>CodaIconMaskTintString</key>
-	<string>#06759b</string>
+	<string>#1e8cbe</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.hive12.coda.completions.wordpress-additions</string>
 	<key>CFBundleName</key>
 	<string>WordPress Additions</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>7</string>
+	<key>CodaPlugInSupportedAPIVersion</key>
+	<integer>7</integer>
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2014 Till Krüss.</string>
 	<key>CFBundleShortVersionString</key>
