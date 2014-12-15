@@ -4,7 +4,7 @@ This auto-complete mode for Coda 2.5 includes all __WordPress 4.1__ functions an
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/releases/tag/1.2)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.2.zip)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
