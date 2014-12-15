@@ -1,16 +1,22 @@
 # WordPress auto-complete for Coda 2.5
 
-This auto-complete mode for Coda 2.5 includes all __WordPress 4.0__ functions.
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.1__ functions and constants.
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/codacompletion.zip)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/releases/tag/1.2)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Completions`.
 
 ## Changelog
+
+### 1.2 (2014-12-15)
+
+  - Added 145 constants
+  - Added 20 functions: `_navigation_markup`, `_wp_clear_update_cache`, `_wp_get_password_hint`, `_wp_json_convert_string`, `_wp_json_sanity_check`, `_wp_render_title_tag`, `get_the_archive_description`, `get_the_archive_title`, `get_the_post_navigation`, `get_the_posts_navigation`, `get_the_posts_pagination`, `network_settings_add_js`, `the_archive_description`, `the_archive_title`, `the_post_navigation`, `the_posts_navigation`, `the_posts_pagination`, `wp_ajax_destroy_sessions`, `wp_json_encode`, `wp_print_revision_templates`
+  - Removed 1 function: `admin_created_user_subject`
 
 ### 1.1.1 (2014-09-04)
 
