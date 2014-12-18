@@ -4,13 +4,17 @@ This auto-complete mode for Coda 2.5 includes all __WordPress 4.1__ functions an
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.2.zip)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.2.1.zip)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Completions`.
 
 ## Changelog
+
+### 1.2.1 (2014-12-18)
+
+  - Removed leading underscore from: `_wp_clear_update_cache`, `_wp_get_password_hint`
 
 ### 1.2 (2014-12-15)
 

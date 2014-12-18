@@ -2064,16 +2064,6 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>_wp_clear_update_cache</string>
-			<key>String</key>
-			<string>_wp_clear_update_cache</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{23, 0}</string>
-		</dict>
-		<dict>
-			<key>ID</key>
 			<string>_wp_credits_add_profile_link</string>
 			<key>String</key>
 			<string>_wp_credits_add_profile_link</string>
@@ -2219,16 +2209,6 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{19, 0}</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>_wp_get_password_hint</string>
-			<key>String</key>
-			<string>_wp_get_password_hint</string>
-			<key>PostString</key>
-			<string>()</string>
-			<key>SelectionRange</key>
-			<string>{22, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -25448,6 +25428,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_clean_update_cache</string>
+			<key>String</key>
+			<string>wp_clean_update_cache</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{22, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_clear_auth_cookie</string>
 			<key>String</key>
 			<string>wp_clear_auth_cookie</string>
@@ -27678,6 +27668,16 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{24, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_get_password_hint</string>
+			<key>String</key>
+			<string>wp_get_password_hint</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>

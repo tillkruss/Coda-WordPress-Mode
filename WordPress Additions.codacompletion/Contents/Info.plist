@@ -19,11 +19,11 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2014 Till Krüss.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.2.1</string>
 	<key>CFBundleVersion</key>
-	<string>1.2</string>
+	<string>1.2.1</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.2, Copyright Till Krüss, 2014</string>
+	<string>1.2.1, Copyright Till Krüss, 2014</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
