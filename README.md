@@ -1,10 +1,10 @@
 # WordPress auto-complete for Coda 2.5
 
-This auto-complete mode for Coda 2.5 includes all __WordPress 4.1__ functions and constants.
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.2__ functions and constants.
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.2.1.zip)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.3.zip)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
@@ -12,6 +12,11 @@ This will automatically install the syntax mode to `~/Library/Application Suppor
 
 ## Changelog
 
+### 1.3 (2015-04-26)
+
+  - Added 20 functions: `_mb_strlen`, `_split_shared_term`, `_wp_check_split_default_terms`, `_wp_check_split_terms_in_menus`, `_wp_posts_page_notice`, `_wp_sanitize_utf8_in_redirect`, `_wp_scripts_maybe_doing_it_wrong`, `customize_themes_print_templates`, `get_avatar_data`, `get_avatar_url`, `has_header_image`, `maybe_convert_table_to_utf8mb4`, `mb_strlen`, `options_discussion_add_js`, `print_emoji_detection_script`, `upgrade_420`, `wp_admin_canonical_url`, `wp_ajax_press_this_add_category`, `wp_ajax_press_this_save_post`, `wp_ajax_update_plugin`, `wp_attachment_is`, `wp_delete_file`, `wp_edit_attachments_query_vars`, `wp_encode_emoji`, `wp_get_split_term`, `wp_get_split_terms`, `wp_install_maybe_enable_pretty_permalinks`, `wp_media_attach_action`, `wp_print_request_filesystem_credentials_modal`, `wp_script_add_data`, `wp_scripts`, `wp_staticize_emoji`, `wp_staticize_emoji_for_email`, `wp_styles`
+  - Removed 1 function: `get_images_from_uri()`
+  
 ### 1.2.1 (2014-12-18)
 
   - Removed leading underscore from: `_wp_clear_update_cache()`, `_wp_get_password_hint()`
