@@ -5,13 +5,13 @@
 	<key>CodaAuthorString</key>
 	<string>Till Krüss</string>
 	<key>CodaDescriptionString</key>
-	<string>Auto-completion for WordPress 4.5 functions/constants.</string>
+	<string>Auto-completion for WordPress 4.6 functions/constants.</string>
 	<key>CodaIconMaskTintString</key>
 	<string>#1e8cbe</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.hive12.coda.completions.wordpress-additions</string>
 	<key>CFBundleName</key>
-	<string>WordPress 4.5 Additions</string>
+	<string>WordPress 4.6 Additions</string>
 	<key>CodaPlugInMinimumAPIVersion</key>
 	<string>7</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
@@ -19,11 +19,11 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2016 Till Krüss.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6</string>
+	<string>1.7</string>
 	<key>CFBundleVersion</key>
-	<string>1.6</string>
+	<string>1.7</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.6, Copyright Till Krüss, 2015</string>
+	<string>1.7, Copyright Till Krüss, 2016</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
