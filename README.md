@@ -1,16 +1,19 @@
 # WordPress auto-complete for Coda 2.5
 
-This auto-complete mode for Coda 2.5 includes all __WordPress 4.5__ functions and constants.
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.6__ functions and constants.
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.6.zip)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.7.zip)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Completions`.
 
 ## Changelog
+
+### 1.7 (2016-08-24)
+  - Added WordPress 4.6 functions/constants
 
 ### 1.6 (2016-04-14)
   - Added WordPress 4.5 functions/constants
@@ -24,14 +27,14 @@ This will automatically install the syntax mode to `~/Library/Application Suppor
 ### 1.4 (2015-08-08)
 
   - Added 34 functions: `_deprecated_constructor`, `_upgrade_422_find_genericons_files_in_folder`, `_upgrade_422_remove_genericons`, `_wp_can_use_pcre_u`, `atom_site_icon`, `convert_invalid_entities`, `do_shortcodes_in_html_tags`, `format_for_editor`, `get_default_comment_status`, `get_language_attributes`, `get_main_network_id`, `get_singular_template`, `get_site_icon_url`, `has_site_icon`, `rss2_site_icon`, `site_icon_url`, `split_all_shared_terms`, `unescape_invalid_shortcodes`, `upgrade_430`, `upgrade_430_fix_comments`, `wp_admin_bar_customize_menu`, `wp_ajax_crop_image`, `wp_html_split`, `wp_kses_attr_check`, `wp_kses_attr_parse`, `wp_kses_hair_parse`, `wp_kses_one_attr`, `wp_post_preview_js`, `wp_replace_in_html_tags`, `wp_resolve_numeric_slug_conflicts`, `wp_roles`, `wp_should_upgrade_global_tables`, `wp_site_icon`, `wptexturize_primes`
-  - Added 1 constant: `WP_FEATURE_BETTER_PASSWORDS` 
+  - Added 1 constant: `WP_FEATURE_BETTER_PASSWORDS`
   - Updated many function parameters
-  
+
 ### 1.3 (2015-04-26)
 
   - Added 20 functions: `_mb_strlen()`, `_split_shared_term()`, `_wp_check_split_default_terms()`, `_wp_check_split_terms_in_menus()`, `_wp_posts_page_notice()`, `_wp_sanitize_utf8_in_redirect()`, `_wp_scripts_maybe_doing_it_wrong()`, `customize_themes_print_templates()`, `get_avatar_data()`, `get_avatar_url()`, `has_header_image()`, `maybe_convert_table_to_utf8mb4()`, `mb_strlen()`, `options_discussion_add_js()`, `print_emoji_detection_script()`, `upgrade_420()`, `wp_admin_canonical_url()`, `wp_ajax_press_this_add_category()`, `wp_ajax_press_this_save_post()`, `wp_ajax_update_plugin()`, `wp_attachment_is()`, `wp_delete_file()`, `wp_edit_attachments_query_vars()`, `wp_encode_emoji()`, `wp_get_split_term()`, `wp_get_split_terms()`, `wp_install_maybe_enable_pretty_permalinks()`, `wp_media_attach_action()`, `wp_print_request_filesystem_credentials_modal()`, `wp_script_add_data()`, `wp_scripts()`, `wp_staticize_emoji()`, `wp_staticize_emoji_for_email()`, `wp_styles()`
   - Removed 1 function: `get_images_from_uri()`
-  
+
 ### 1.2.1 (2014-12-18)
 
   - Removed leading underscore from: `_wp_clear_update_cache()`, `_wp_get_password_hint()`
