@@ -1,16 +1,19 @@
 # WordPress auto-complete for Coda 2.5
 
-This auto-complete mode for Coda 2.5 includes all __WordPress 4.6__ functions and constants.
+This auto-complete mode for Coda 2.5 includes all __WordPress 4.7__ functions and constants.
 
 ## Installation
 
-* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.7.zip)
+* [Download the latest WordPress auto-complete mode release.](https://github.com/tillkruess/Coda-WordPress-Mode/archive/1.8.zip)
 * Unpack the downloaded Zip file.
 * Open `WordPress Additions.codacompletion`.
 
 This will automatically install the syntax mode to `~/Library/Application Support/Coda 2/Completions`.
 
 ## Changelog
+
+### 1.8 (2016-12-06)
+  - Added WordPress 4.7 functions/constants
 
 ### 1.7 (2016-08-24)
   - Added WordPress 4.6 functions/constants
