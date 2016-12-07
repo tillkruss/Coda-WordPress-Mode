@@ -236,6 +236,8 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $message</string>
+				<string>string $title</string>
+				<string>mixed $args</string>
 			</array>
 		</dict>
 		<dict>
@@ -304,6 +306,21 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{28, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_clear_modified_cache_on_transition_comment_status</string>
+			<key>String</key>
+			<string>_clear_modified_cache_on_transition_comment_status</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{52, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $new_status</string>
+				<string>string $old_status</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -496,7 +513,7 @@
 			<string>{25, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>string $message</string>
+				<string>mixed $message</string>
 				<string>string $title</string>
 				<string>mixed $args</string>
 			</array>
@@ -514,6 +531,16 @@
 			<array>
 				<string>int $id</string>
 			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_delete_option_fresh_site</string>
+			<key>String</key>
+			<string>_delete_option_fresh_site</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -685,6 +712,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>_filter_query_attachment_filenames</string>
+			<key>String</key>
+			<string>_filter_query_attachment_filenames</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{36, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $clauses</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>_fix_attachment_links</string>
 			<key>String</key>
 			<string>_fix_attachment_links</string>
@@ -755,6 +796,21 @@
 			<array>
 				<string>string $context</string>
 				<string>int $user</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_get_component_from_parsed_url_array</string>
+			<key>String</key>
+			<string>_get_component_from_parsed_url_array</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{38, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $url_parts</string>
+				<string>int $component</string>
 			</array>
 		</dict>
 		<dict>
@@ -876,6 +932,35 @@
 				<string>mixed $post</string>
 				<string>bool $leavename</string>
 				<string>bool $sample</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_get_path_to_translation</string>
+			<key>String</key>
+			<string>_get_path_to_translation</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{26, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $domain</string>
+				<string>bool $reset</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_get_path_to_translation_from_lang_dir</string>
+			<key>String</key>
+			<string>_get_path_to_translation_from_lang_dir</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{40, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $domain</string>
 			</array>
 		</dict>
 		<dict>
@@ -1309,7 +1394,7 @@
 			<string>{20, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>array $input</string>
+				<string>array $mce_init</string>
 			</array>
 		</dict>
 		<dict>
@@ -1902,6 +1987,21 @@
 			<array>
 				<string>resource $img</string>
 				<string>mixed $angle</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_sanitize_text_fields</string>
+			<key>String</key>
+			<string>_sanitize_text_fields</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{23, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $str</string>
+				<string>bool $keep_newlines</string>
 			</array>
 		</dict>
 		<dict>
@@ -2552,6 +2652,21 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>_wp_customize_changeset_filter_insert_post_data</string>
+			<key>String</key>
+			<string>_wp_customize_changeset_filter_insert_post_data</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{49, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $post_data</string>
+				<string>array $supplied_post_data</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>_wp_customize_include</string>
 			<key>String</key>
 			<string>_wp_customize_include</string>
@@ -2569,6 +2684,22 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{31, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_wp_customize_publish_changeset</string>
+			<key>String</key>
+			<string>_wp_customize_publish_changeset</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{33, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $new_status</string>
+				<string>string $old_status</string>
+				<string>WP_Post $changeset_post</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -3016,7 +3147,7 @@
 			<string>{38, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string></string>
+				<string> $output</string>
 			</array>
 		</dict>
 		<dict>
@@ -3270,6 +3401,20 @@
 			<array>
 				<string>array $a</string>
 				<string>array $b</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>_wp_translate_php_url_constant_to_key</string>
+			<key>String</key>
+			<string>_wp_translate_php_url_constant_to_key</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{39, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $constant</string>
 			</array>
 		</dict>
 		<dict>
@@ -3988,8 +4133,8 @@
 			<string>{10, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>int $post_id</string>
-				<string>string $uri</string>
+				<string>mixed $post_id</string>
+				<string>mixed $uri</string>
 			</array>
 		</dict>
 		<dict>
@@ -5160,12 +5305,6 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{24, 0}</string>
-			<key>Parameters</key>
-			<array>
-				<string>string $ip</string>
-				<string>string $email</string>
-				<string>string $date</string>
-			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -6217,6 +6356,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>create_initial_rest_routes</string>
+			<key>String</key>
+			<string>create_initial_rest_routes</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{28, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>create_initial_taxonomies</string>
 			<key>String</key>
 			<string>create_initial_taxonomies</string>
@@ -6501,7 +6650,7 @@
 			<string>{30, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>$errors</string>
+				<string>bool $errors</string>
 			</array>
 		</dict>
 		<dict>
@@ -7330,7 +7479,7 @@
 			<string>{15, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>int $post_id</string>
+				<string>mixed $post_id</string>
 			</array>
 		</dict>
 		<dict>
@@ -8061,6 +8210,22 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $path</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>filter_default_option</string>
+			<key>String</key>
+			<string>filter_default_option</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{23, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $default</string>
+				<string>string $option</string>
+				<string>bool $passed_default</string>
 			</array>
 		</dict>
 		<dict>
@@ -10237,6 +10402,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>get_custom_header_markup</string>
+			<key>String</key>
+			<string>get_custom_header_markup</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{26, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>get_custom_logo</string>
 			<key>String</key>
 			<string>get_custom_logo</string>
@@ -10748,6 +10923,26 @@
 			<string>get_header_textcolor</string>
 			<key>String</key>
 			<string>get_header_textcolor</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{22, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_header_video_settings</string>
+			<key>String</key>
+			<string>get_header_video_settings</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_header_video_url</string>
+			<key>String</key>
+			<string>get_header_video_url</string>
 			<key>PostString</key>
 			<string>(  )</string>
 			<key>SelectionRange</key>
@@ -11861,7 +12056,7 @@
 			<string>{24, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>int $post_id</string>
+				<string>mixed $post</string>
 			</array>
 		</dict>
 		<dict>
@@ -11876,6 +12071,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $post</string>
+				<string>string $post_type</string>
 			</array>
 		</dict>
 		<dict>
@@ -11943,6 +12139,34 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $title</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_parent_theme_file_path</string>
+			<key>String</key>
+			<string>get_parent_theme_file_path</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{28, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $file</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_parent_theme_file_uri</string>
+			<key>String</key>
+			<string>get_parent_theme_file_uri</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $file</string>
 			</array>
 		</dict>
 		<dict>
@@ -12879,7 +13103,7 @@
 			<string>{10, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>int $post_id</string>
+				<string>mixed $post_id</string>
 			</array>
 		</dict>
 		<dict>
@@ -13010,6 +13234,16 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{26, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_registered_settings</string>
+			<key>String</key>
+			<string>get_registered_settings</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -13684,7 +13918,7 @@
 			<string>{21, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>object $tax</string>
+				<string>WP_Taxonomy $tax</string>
 			</array>
 		</dict>
 		<dict>
@@ -14627,6 +14861,34 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>get_theme_file_path</string>
+			<key>String</key>
+			<string>get_theme_file_path</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $file</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_theme_file_uri</string>
+			<key>String</key>
+			<string>get_theme_file_uri</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{20, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $file</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>get_theme_mod</string>
 			<key>String</key>
 			<string>get_theme_mod</string>
@@ -14691,6 +14953,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>get_theme_starter_content</string>
+			<key>String</key>
+			<string>get_theme_starter_content</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>get_theme_support</string>
 			<key>String</key>
 			<string>get_theme_support</string>
@@ -14748,7 +15020,7 @@
 			<string>{13, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>int $post_id</string>
+				<string>mixed $post_id</string>
 			</array>
 		</dict>
 		<dict>
@@ -14919,6 +15191,20 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $string</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get_user_locale</string>
+			<key>String</key>
+			<string>get_user_locale</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $user_id</string>
 			</array>
 		</dict>
 		<dict>
@@ -15249,6 +15535,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>has_custom_header</string>
+			<key>String</key>
+			<string>has_custom_header</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{19, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>has_custom_logo</string>
 			<key>String</key>
 			<string>has_custom_logo</string>
@@ -15295,6 +15591,16 @@
 			<string>has_header_image</string>
 			<key>String</key>
 			<string>has_header_image</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{18, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>has_header_video</string>
+			<key>String</key>
+			<string>has_header_video</string>
 			<key>PostString</key>
 			<string>(  )</string>
 			<key>SelectionRange</key>
@@ -16501,6 +16807,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>is_header_video_active</string>
+			<key>String</key>
+			<string>is_header_video_active</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{24, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>is_home</string>
 			<key>String</key>
 			<string>is_home</string>
@@ -16542,6 +16858,16 @@
 			<array>
 				<string>string $url</string>
 			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>is_locale_switched</string>
+			<key>String</key>
+			<string>is_locale_switched</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{20, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -18772,7 +19098,7 @@
 			<string>{23, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>$args</string>
+				<string> $args</string>
 			</array>
 		</dict>
 		<dict>
@@ -19149,6 +19475,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $default</string>
+				<string>string $post_type</string>
 			</array>
 		</dict>
 		<dict>
@@ -19359,7 +19686,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $content</string>
-				<string>int $post_ID</string>
+				<string>mixed $post_id</string>
 			</array>
 		</dict>
 		<dict>
@@ -20620,6 +20947,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>register_initial_settings</string>
+			<key>String</key>
+			<string>register_initial_settings</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>register_meta</string>
 			<key>String</key>
 			<string>register_meta</string>
@@ -20711,6 +21048,22 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>register_rest_field</string>
+			<key>String</key>
+			<string>register_rest_field</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $object_type</string>
+				<string>string $attribute</string>
+				<string>array $args</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>register_rest_route</string>
 			<key>String</key>
 			<string>register_rest_route</string>
@@ -20739,7 +21092,7 @@
 			<array>
 				<string>string $option_group</string>
 				<string>string $option_name</string>
-				<string>callback $sanitize_callback</string>
+				<string>array $args</string>
 			</array>
 		</dict>
 		<dict>
@@ -21361,6 +21714,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>rest_authorization_required_code</string>
+			<key>String</key>
+			<string>rest_authorization_required_code</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{34, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>rest_cookie_check_errors</string>
 			<key>String</key>
 			<string>rest_cookie_check_errors</string>
@@ -21423,6 +21786,30 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $response</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_get_avatar_sizes</string>
+			<key>String</key>
+			<string>rest_get_avatar_sizes</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{23, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_get_avatar_urls</string>
+			<key>String</key>
+			<string>rest_get_avatar_urls</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{22, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $email</string>
 			</array>
 		</dict>
 		<dict>
@@ -21510,6 +21897,34 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>rest_is_boolean</string>
+			<key>String</key>
+			<string>rest_is_boolean</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $maybe_bool</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_is_ip_address</string>
+			<key>String</key>
+			<string>rest_is_ip_address</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{20, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $ip</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>rest_output_link_header</string>
 			<key>String</key>
 			<string>rest_output_link_header</string>
@@ -21551,6 +21966,67 @@
 			<array>
 				<string>string $date</string>
 				<string>bool $force_utc</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_parse_request_arg</string>
+			<key>String</key>
+			<string>rest_parse_request_arg</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{24, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+				<string>WP_REST_Request $request</string>
+				<string>string $param</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_sanitize_boolean</string>
+			<key>String</key>
+			<string>rest_sanitize_boolean</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{23, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_sanitize_request_arg</string>
+			<key>String</key>
+			<string>rest_sanitize_request_arg</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+				<string>WP_REST_Request $request</string>
+				<string>string $param</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_sanitize_value_from_schema</string>
+			<key>String</key>
+			<string>rest_sanitize_value_from_schema</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{33, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+				<string>array $args</string>
 			</array>
 		</dict>
 		<dict>
@@ -21600,6 +22076,38 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>rest_validate_request_arg</string>
+			<key>String</key>
+			<string>rest_validate_request_arg</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+				<string>WP_REST_Request $request</string>
+				<string>string $param</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rest_validate_value_from_schema</string>
+			<key>String</key>
+			<string>rest_validate_value_from_schema</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{33, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $value</string>
+				<string>array $args</string>
+				<string>string $param</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>restore_current_blog</string>
 			<key>String</key>
 			<string>restore_current_blog</string>
@@ -21607,6 +22115,26 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{22, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>restore_current_locale</string>
+			<key>String</key>
+			<string>restore_current_locale</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{24, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>restore_previous_locale</string>
+			<key>String</key>
+			<string>restore_previous_locale</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -22004,6 +22532,20 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{21, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $str</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>sanitize_textarea_field</string>
+			<key>String</key>
+			<string>sanitize_textarea_field</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
 			<key>Parameters</key>
 			<array>
 				<string>string $str</string>
@@ -23229,6 +23771,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>switch_to_locale</string>
+			<key>String</key>
+			<string>switch_to_locale</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{18, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $locale</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>sync_category_tag_slugs</string>
 			<key>String</key>
 			<string>sync_category_tag_slugs</string>
@@ -23736,6 +24292,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>the_custom_header_markup</string>
+			<key>String</key>
+			<string>the_custom_header_markup</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{26, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>the_custom_logo</string>
 			<key>String</key>
 			<string>the_custom_logo</string>
@@ -23890,6 +24456,16 @@
 			<array>
 				<string>array $attr</string>
 			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>the_header_video_url</string>
+			<key>String</key>
+			<string>the_header_video_url</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{22, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -24717,7 +25293,7 @@
 			<array>
 				<string>string $option_group</string>
 				<string>string $option_name</string>
-				<string>callback $sanitize_callback</string>
+				<string>callback $deprecated</string>
 			</array>
 		</dict>
 		<dict>
@@ -26412,7 +26988,7 @@
 			<array>
 				<string>array $items</string>
 				<string>int $depth</string>
-				<string>object $r</string>
+				<string>stdClass $r</string>
 			</array>
 		</dict>
 		<dict>
@@ -27788,6 +28364,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>array $commentdata</string>
+				<string>bool $avoid_die</string>
 			</array>
 		</dict>
 		<dict>
@@ -28133,6 +28710,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_cache_get_last_changed</string>
+			<key>String</key>
+			<string>wp_cache_get_last_changed</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string> $group</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_cache_incr</string>
 			<key>String</key>
 			<string>wp_cache_incr</string>
@@ -28301,6 +28892,38 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{26, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_check_comment_data_max_lengths</string>
+			<key>String</key>
+			<string>wp_check_comment_data_max_lengths</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{35, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $comment_data</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_check_comment_flood</string>
+			<key>String</key>
+			<string>wp_check_comment_flood</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{24, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>bool $is_flood</string>
+				<string>string $ip</string>
+				<string>string $email</string>
+				<string>string $date</string>
+				<string>bool $avoid_die</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -28929,6 +29552,16 @@
 				<string>int $src_abs</string>
 				<string>string $dst_file</string>
 			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_custom_css_cb</string>
+			<key>String</key>
+			<string>wp_custom_css_cb</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{18, 0}</string>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -29670,6 +30303,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_doing_ajax</string>
+			<key>String</key>
+			<string>wp_doing_ajax</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_download_language_pack</string>
 			<key>String</key>
 			<string>wp_download_language_pack</string>
@@ -30385,6 +31028,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_generate_uuid4</string>
+			<key>String</key>
+			<string>wp_generate_uuid4</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{19, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_generator</string>
 			<key>String</key>
 			<string>wp_generator</string>
@@ -30408,6 +31061,16 @@
 			<string>wp_get_active_network_plugins</string>
 			<key>String</key>
 			<string>wp_get_active_network_plugins</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{31, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_get_additional_image_sizes</string>
+			<key>String</key>
+			<string>wp_get_additional_image_sizes</string>
 			<key>PostString</key>
 			<string>(  )</string>
 			<key>SelectionRange</key>
@@ -30729,6 +31392,34 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_get_custom_css</string>
+			<key>String</key>
+			<string>wp_get_custom_css</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{19, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $stylesheet</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_get_custom_css_post</string>
+			<key>String</key>
+			<string>wp_get_custom_css_post</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{24, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $stylesheet</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_get_db_schema</string>
 			<key>String</key>
 			<string>wp_get_db_schema</string>
@@ -30911,7 +31602,7 @@
 			<string>{24, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>string $menu</string>
+				<string>mixed $menu</string>
 			</array>
 		</dict>
 		<dict>
@@ -31808,6 +32499,7 @@
 				<string>mixed $args</string>
 				<string>string $file</string>
 				<string>int $parent</string>
+				<string>bool $wp_error</string>
 			</array>
 		</dict>
 		<dict>
@@ -32718,6 +33410,23 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_list_sort</string>
+			<key>String</key>
+			<string>wp_list_sort</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>array $list</string>
+				<string>mixed $orderby</string>
+				<string>string $order</string>
+				<string>bool $preserve_keys</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_list_widget_controls</string>
 			<key>String</key>
 			<string>wp_list_widget_controls</string>
@@ -33393,6 +34102,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>array $commentdata</string>
+				<string>bool $avoid_die</string>
 			</array>
 		</dict>
 		<dict>
@@ -33768,6 +34478,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>wp_parse_slug_list</string>
+			<key>String</key>
+			<string>wp_parse_slug_list</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{20, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $list</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>wp_parse_str</string>
 			<key>String</key>
 			<string>wp_parse_str</string>
@@ -33793,6 +34517,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $url</string>
+				<string>int $component</string>
 			</array>
 		</dict>
 		<dict>
@@ -35198,6 +35923,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $response</string>
+				<string>int $status_code</string>
 			</array>
 		</dict>
 		<dict>
@@ -35212,6 +35938,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $data</string>
+				<string>int $status_code</string>
 			</array>
 		</dict>
 		<dict>
@@ -35226,6 +35953,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $data</string>
+				<string>int $status_code</string>
 			</array>
 		</dict>
 		<dict>
@@ -35681,7 +36409,7 @@
 				<string>string $string</string>
 				<string>string $quote_style</string>
 				<string>mixed $charset</string>
-				<string>$double_encode</string>
+				<string>bool $double_encode</string>
 			</array>
 		</dict>
 		<dict>
@@ -36043,6 +36771,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $selected_zone</string>
+				<string>string $locale</string>
 			</array>
 		</dict>
 		<dict>
@@ -36493,6 +37222,21 @@
 			<string>(  )</string>
 			<key>SelectionRange</key>
 			<string>{16, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wp_update_custom_css_post</string>
+			<key>String</key>
+			<string>wp_update_custom_css_post</string>
+			<key>PostString</key>
+			<string>(  )</string>
+			<key>SelectionRange</key>
+			<string>{27, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $css</string>
+				<string>array $args</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -37209,7 +37953,7 @@
 				<string>string $domain</string>
 				<string>string $path</string>
 				<string>string $title</string>
-				<string>string $user</string>
+				<string>string $user_login</string>
 				<string>string $user_email</string>
 				<string>string $key</string>
 				<string>array $meta</string>
@@ -37252,7 +37996,7 @@
 			<string>{31, 0}</string>
 			<key>Parameters</key>
 			<array>
-				<string>string $user</string>
+				<string>string $user_login</string>
 				<string>string $user_email</string>
 				<string>string $key</string>
 				<string>array $meta</string>
@@ -39003,7 +39747,6 @@
 			<key>SelectionRange</key>
 			<string>{15, 0}</string>
 		</dict>
-
 	</array>
 </dict>
 </plist>
