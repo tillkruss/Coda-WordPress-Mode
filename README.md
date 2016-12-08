@@ -1,6 +1,6 @@
-# WordPress auto-complete for Coda 2.5
+# WordPress auto-complete for Coda 2.5+
 
-This auto-complete mode for Coda 2.5 includes all __WordPress 4.7__ functions and constants.
+This auto-complete mode for Coda 2.5+ includes all __WordPress 4.7__ functions and constants.
 
 ## Installation
 
